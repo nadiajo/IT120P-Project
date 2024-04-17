@@ -1,0 +1,58 @@
+<div class="admin-login-container">
+  <img
+    alt="image"
+    src="/assets/notepad-1100w.png"
+    loading="eager"
+    class="admin-login-image"
+  />
+  <form class="admin-login-form" (ngSubmit)="login()">
+    <h1 class="admin-login-text">LOGIN</h1>
+  
+    <!-- Username Section -->
+    <span class="admin-login-password">
+      <span class="admin-login-text1">Username</span>
+      <br />
+    </span>
+    <input
+      id="username"
+      type="text"
+      placeholder="type here"
+      [(ngModel)]="username"
+      name="username"
+      class="admin-login-username-input input"
+    />
+
+    <!-- Password Section -->
+    <span class="admin-login-username">
+      <span class="admin-login-text3">Password</span>
+      <br />
+    </span>
+    <input
+      id="password"
+      type="password"
+      placeholder="type here"
+      [(ngModel)]="password"
+      name="password"
+      class="admin-login-password-input input"
+    />
+    <span *ngIf="loginFailed" class="error-text">
+      Invalid Username or Password
+    </span>
+    
+    <!-- Submit Button -->
+    <button type="submit" class="admin-login-navlink button">
+      <span class="admin-login-text5">
+        <span>LOGIN</span>
+      </span>
+    </button>
+  </form>
+  
+  <a routerLink="/login-chooser" class="admin-login-navlink1">
+    <svg viewBox="0 0 1024 1024" class="admin-login-icon">
+      <path
+        d="M896 470v84h-604l152 154-60 60-256-256 256-256 60 60-152 154h604z"
+      ></path>
+    </svg>
+  </a>
+  <img alt="image" src="/assets/admin-600h.png" class="admin-login-image1" />
+</div>
