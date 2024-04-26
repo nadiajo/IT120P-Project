@@ -1,0 +1,41 @@
+body {
+    background: url('Image/pawsfull.svg') left / contain no-repeat, rgb(234,192,162);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    background: #f9c180;
+    border-radius: 19px;
+    box-shadow: 0 5px 10px;
+}
+
+.card-body h2 {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+}
+
+.card-body .form-control-plaintext {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body .form-control {
+    border-radius: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body .btn-primary {
+    background: #ff8e3c;
+    font-family: 'Poppins', sans-serif;
+    border-color: #ff8e3c;
+    border-radius: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.card-body .btn-primary:hover {
+    color: white;
+}
