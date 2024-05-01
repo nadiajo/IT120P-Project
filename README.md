@@ -41,7 +41,7 @@ To set up IvatanStore in your local environment, follow these steps:
 git clone https://github.com/nadiajo/IT120P-Project.git
 
 2. Navigate to the project directory:
-cd IT120P-Project
+cd IT120P-Project (Make sure that the File is placed under XAMPP folder (htdocs folder)).
 
 3. Install XAMPP on your local machine if you haven't already. XAMPP includes Apache, MySQL, and PHP, providing a complete local server environment for running PHP-based web applications.
 
