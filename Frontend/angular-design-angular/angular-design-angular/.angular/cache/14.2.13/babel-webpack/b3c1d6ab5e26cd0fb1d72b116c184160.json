@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class Dog {\n  constructor(id, name, breed, age, status, imageUrl) {\n    this.id = id;\n    this.name = name;\n    this.breed = breed;\n    this.age = age;\n    this.status = status;\n    this.imageUrl = imageUrl;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
