@@ -1,0 +1,146 @@
+body {
+  background-color: #EAC0A2;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #FFC59E;
+  padding: 20px; 
+  justify-content: space-between;
+}
+
+.navbar .cart, .navbar .profile {
+  width: 70px;
+  height: auto; 
+  margin-right: 20px;
+}
+
+.navbar button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.navbar button img {
+  width: 70px;
+  height: auto; 
+}
+
+.navbar .search-container {
+  position: relative;
+  flex-grow: 0.6;
+  margin-left: 30px;
+}
+
+.navbar .search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px; 
+  width: auto;
+}
+
+.navbar input[type="search"] {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 12px 20px;
+  padding-left: 40px;
+  outline: none;
+  width: 100%;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: none;
+  background: none;
+  font-size: 22px;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.order-list {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.order-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+.order-item {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.order-item p {
+  margin: 0 5px;
+}
+
+.order-item a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.order-item .status {
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.status.shipped {
+  background-color: #db4444;
+}
+
+.status.delivered {
+  background-color: #4caf50;
+}
+
+.order-details {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+
+}
+
+.order-details span {
+	margin-left: 50px;
+	
+	}
+
+.view-more {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-top: 15px; 
+  cursor: pointer;
+}
