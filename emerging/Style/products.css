@@ -1,0 +1,113 @@
+/*Product Start */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+}
+
+
+
+main {
+  padding: 32px 100px;
+  background-color: white
+}
+
+.product-list {
+  padding: 1px 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.product-item {
+  width: 300px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover{
+transform: scale(1.05);
+}
+/*Nadia start*/
+.product-desc {
+  background-color: white;
+  padding: 16px;
+  border-radius: 0px 0px 5px 5px;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
+.product-item img {
+width: 250px;
+border-radius: 15px;
+margin-bottom: 0px;
+}
+
+.product-desc h3 {
+font-weight: 400;
+  font-size: 20px;
+}
+
+.product-desc p {
+margin-bottom: 5px;
+  font-size: 20px;
+color: black;
+} 
+/*Nadia end*/
+
+
+.product-desc span {
+font-weight: 300;
+color: #db4444;
+}
+
+a, a:hover{
+text-decoration: none;
+}
+
+.buttons {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.button {
+font-family: 'Roboto', sans-serif;
+padding: 10px 20px;
+background-color: white;
+color: #000000;
+font-weight: bold;
+font-size: 14px;
+border: none;
+cursor: pointer;
+border-radius: 11px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.button:hover {
+color: #fff;
+background-color: white;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+transform: translateY(-2px);
+}
+
+.button:active {
+background-color: white;
+box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+transform: translateY(2px);
+}
+
+
+
+
+/*Product End */
